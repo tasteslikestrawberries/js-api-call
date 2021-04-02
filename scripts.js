@@ -22,9 +22,10 @@ app.appendChild(logo);
       app.appendChild(descriptionContainer);
 
       const actorsContainer = document.createElement('div');
+      //using this method is not secure but it'll do for now
       actorsContainer.innerHTML += '<b>Actors:</b> <br /><br />';
       actorsContainer.innerHTML += data.actors; //can also use .textContext
-//using this method is not secure but it'll do for now
+
     app.appendChild(actorsContainer);
 
   })
