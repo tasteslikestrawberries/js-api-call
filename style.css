@@ -1,0 +1,18 @@
+body {
+    background-color: #096a33;
+    color: white;
+    font-size: 16px;
+}
+
+div {
+    width: 500px;
+    margin: 30px auto;
+    line-height: 150%;
+    text-align: justify;
+
+}
+
+img {
+    margin:10px 50px;
+    border: 2px solid;
+}
